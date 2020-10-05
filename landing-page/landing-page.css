@@ -1,0 +1,350 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 80px;
+    position: fixed;
+}
+
+header .navbar-menu {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+.navbar-menu ul {
+    transform: translate(0, 120%);
+}
+
+header ul li a {
+    font-size: 16px;
+    margin: 0 25px;
+    font-weight: 200;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+header ul li a:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;  
+    padding-bottom: 5px;
+}
+
+.wrap {
+    background-image: url('../img/oranges.jpg');
+    background-size: cover;
+    background-position: -550px -600px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+
+.wave {
+    width: 100%;
+    position: 0 -300px;
+    color: #fff;
+    display: block;
+}
+
+/**.content-1 {
+    background: #FFF;
+    color: black;
+    text-align: center;
+}*/
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    margin: 20px 40px 40px;
+    
+    /*background: pink;*/
+
+}
+
+.logo-pic {
+    display: flex;
+}
+.logo-kementan {
+    width: 56px;
+    height: 59px;
+    cursor: pointer;
+}
+
+.logo-name {
+    /*background: yellow;*/
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.logo-name-1 {
+    /*background: rebeccapurple;*/
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+
+}
+
+.logo-name-2 {
+    /*background: red;*/
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+
+.hero {
+    /*background-color: lightcoral;*/
+    max-width: 55%;
+    padding: 200px 80p 0;
+    color: #000;
+    margin-left: 80px;
+    margin-top: 150px;
+    height: 200px;
+}
+
+.hero h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.hero p {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 0;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+}
+
+.hero a {
+    padding: 10px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 50px;
+    font-family: 'Roboto';
+}
+
+.hero a.color1 {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+.hero a.color1:hover {
+    background-color: #fff;
+    /*border: 2px solid #fff;*/
+    /*text-decoration: underline;*/
+}
+
+.hero a:hover {
+    color: #000;
+}
+
+.description {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.content-1 {
+    background-color: #fff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.content-1 h1 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    border-bottom: 5px solid black;
+    padding-bottom: 5px;
+    width: fit-content;
+    margin: auto;
+    letter-spacing: 3px;
+}
+
+/*.judul-1 {
+    text-align: center;
+    background-color: lightgrey;
+}*/
+
+.content-1 p {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 40px;
+    line-height: 1.5em;
+}
+
+.wave-1 {
+    width: 100%;
+    position: 0 -300px;
+    display: block;
+}
+
+.kontak-wrap {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin-top: -200px;
+    background-image: url('../img/oranges-2.jpg');
+    background-size: cover;
+}
+.kontak {
+    margin-left: 80px;
+    padding: 50px 20px 20px 30px;
+    width: 520px;
+    height: 550px;
+    margin-top: 20px;
+    /*background-color: lightcoral;*/
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(40px);
+}
+.kontak h1 {
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.form {
+    /*background-color: lightseagreen;*/
+    margin: 0 auto;
+}
+
+.form input, textarea {
+    margin-bottom: 30px;
+}
+.form input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 300px;
+    border: 1px solid #000;
+    /*#6b6a66*/
+    border-radius: 40px;
+    background-color: transparent;
+}
+
+.form textarea {
+    border-radius: 15px;
+    border: 1px solid #000;
+    background-color: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 310px;
+}
+
+.kontak a {
+    padding: 10px 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 50px;
+    font-family: 'Roboto';
+}
+
+.kontak a.color2 {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.kontak a.color2:hover {
+    text-decoration: underline;
+}
+
+.kontak a:hover {
+    color: #000;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #315830;
+    line-height: 2.5em;
+}
+
+.footer h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    color: #fff;
+}
+.social-menu ul li {
+    display: inline-block;
+}
+
+.social-menu ul li a {
+    font-size: 16px;
+    margin: 0 25px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.social-menu ul li a:hover {
+    border-bottom: 2px solid #fff;
+    text-decoration: none;  
+    padding-bottom: 5px;
+}
